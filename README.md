@@ -3,17 +3,17 @@
 ## Instalación paquete
 
 ```bash
-  npm i functional-light
+  npm i flight-extension
 ```
 
 ## Documentación del API
 
-[Ver todas las funciones](docs/functional-light.md)
+[Ver todas las funciones](docs/flight-extension.md)
 
 ## Ejemplo
 
 ```js
-const { cons, first, rest, isEmpty, isList } = require('functional-light');
+const { cons, first, rest, isEmpty, isList } = require('flight-extension');
 
 console.log(cons('1',[])); // ['1']
 console.log(cons('2', cons('1',[]))); // ['2', '1']
